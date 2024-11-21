@@ -1,0 +1,33 @@
+.content{
+    margin-top: 20px;
+}
+.tab{
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 3px solid rgb(223, 220, 220);
+    padding: 1rem;
+
+    margin-bottom: 1rem;
+}
+.tabLinks{
+    border: 0;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:all .1s ease-in-out;
+
+
+}
+.tabLinks.active{
+    background-color: rebeccapurple;
+    color: #000;
+
+}
+
+.tabcontent{
+    display: none;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 3px solid rgb(223, 220, 220);
+    border-radius: 20px;
+}

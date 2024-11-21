@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="tab-container">
+        <div class="tab">
+            <button class="tablinks" onclick="openCharacter(event, 'luffy')" id="defaultOpen">luffy</button>
+            <button class="tablinks" onclick="openCharacter(event, 'zoro')">zoro</button>
+            <button class="tablinks" onclick="openCharacter(event, 'sanji')">sanji</button>
+        </div>
+
+        <div id="luffy" class="tabcontent" >
+            <h3>luffy</h3>
+            <p>luffy is a pirate</p>
+        </div>
+        <div id="zoro" class="tabcontent">
+            <h3>zoro</h3>
+            <p>zoro is a swordman</p>
+        </div>
+        <div id="sanji" class="tabcontent">
+            <h3>sanji</h3>
+            <p>sanji is a chef</p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
