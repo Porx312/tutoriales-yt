@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 2rem;
+}
+.content{
+}
+.btn-accordion{
+    background-color: #e9e6e6;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    padding: 1rem;
+    
+}
+
+.active, .btn-accordion:hover{
+    background-color: #97eafb;
+}
+.panel{ 
+    padding: 0 18px;
+    background-color: #fff;
+    display: none;
+    overflow: hidden;
+}
+
